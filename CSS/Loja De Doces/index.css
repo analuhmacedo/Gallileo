@@ -1,0 +1,46 @@
+.logo {
+     color: rgb(92, 17, 111);
+     font-family: "Baskerville"; 
+     width: 300px;
+     height: 140px;
+     position:relative; 
+     margin:0 auto} 
+
+.nome{ 
+    font-size: 45px; 
+    line-height: 105%; 
+    position: absolute; 
+    top: 12px;
+    text-shadow: rgb(255, 255, 255)  0.3em 0.2em; }
+    
+.slogan { 
+    font-size: 15px; 
+    position:absolute; 
+    right: 4px; 
+    top: 60px; }
+
+.nome::first-letter {
+    color: orange;}
+
+.vitrine {
+    display:flex;
+    justify-content: space-between;
+}
+
+.vitrine img {
+    vertical-align: middle;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 250px;
+}
+
+.vitrine p {
+    display: inline-flex;
+    margin-left: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.vitrine a {
+    text-decoration: none;
+}

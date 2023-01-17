@@ -1,0 +1,77 @@
+.body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(200, 162, 200);
+  }
+   
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(92, 17, 111);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+ 
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #ed7014;
+    font-size: 20px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .purple {
+    border-left: 3px solid  rgb(92, 17, 111);
+  }
+   
+  a {
+    display: inline;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color: rgb(92, 17, 111);
+    color:  #ed7014;
+    border-radius: 5px;
+    text-decoration:none;
+    text-align: center;
+    font-weight: arial;
+    font-family: Arial;
+}
+
+.card button {
+   background-color:rgb(92, 17, 111) ;
+   color: white;
+   border: none;
+}
+
+.form {
+   text-align: center;
+   color: rgb(92, 17, 111) ;}
+
+form input{
+  margin: 10px 0px 10px;
+}
+
+.form h1 {
+  font-size: 30px;
+}
+
+.form span {
+  font-size: 20px;
+}
